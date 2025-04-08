@@ -1,14 +1,8 @@
 import React from 'react'
+import InventoryPage from './pages/InventoryPage'
 
-const App = () => {
-  return (
-    <div>
-      <div className='Container bg-red-500'>
-        <h1>Hello</h1>
-        <button className="btn">Default</button>
-      </div>
-    </div>
-  )
+function App() {
+  return <InventoryPage />
 }
 
 export default App
